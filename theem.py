@@ -11,7 +11,7 @@ change_colors() {
   read -p "Enter your choice (1-5): " color_choice
 
   case $color_choice in
-    1)
+    
       echo "Applying Dracula theme..."
       termux-change-settings colorscheme="dracula"
       ;;
